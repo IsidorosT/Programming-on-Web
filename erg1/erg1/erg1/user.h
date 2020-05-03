@@ -1,11 +1,17 @@
 #pragma once
 #include <iostream>
-#include <list>
-#include "point.h"
+#include <vector>
+#include "Node.h"
 using namespace std;
-class user
+class User
 {
 	public:
-		list <point> User_Trajectory;
+		vector<Node> Trajectory;
+		bool infected;
+	User(bool infection) {
+		infected = infection;
+	}
 };
+
+
 

@@ -1,0 +1,12 @@
+﻿  erg1.cpp
+C:\Users\Kingpin\Documents\GitHub\Programming-on-Web\erg1\erg1\erg1\erg1.cpp(20,24): error C2659: '=': function as left operand
+C:\Users\Kingpin\Documents\GitHub\Programming-on-Web\erg1\erg1\erg1\erg1.cpp(24,20): warning C4311: 'type cast': pointer truncation from 'int (__cdecl *)(void)' to 'int'
+C:\Users\Kingpin\Documents\GitHub\Programming-on-Web\erg1\erg1\erg1\erg1.cpp(24,20): warning C4302: 'type cast': truncation from 'int (__cdecl *)(void)' to 'int'
+C:\Users\Kingpin\Documents\GitHub\Programming-on-Web\erg1\erg1\erg1\erg1.cpp(24,39): warning C4311: 'type cast': pointer truncation from 'int (__cdecl *)(void)' to 'int'
+C:\Users\Kingpin\Documents\GitHub\Programming-on-Web\erg1\erg1\erg1\erg1.cpp(24,39): warning C4302: 'type cast': truncation from 'int (__cdecl *)(void)' to 'int'
+C:\Users\Kingpin\Documents\GitHub\Programming-on-Web\erg1\erg1\erg1\erg1.cpp(25,30): error C2659: '=': function as left operand
+C:\Users\Kingpin\Documents\GitHub\Programming-on-Web\erg1\erg1\erg1\erg1.cpp(27,18): error C2676: binary '[': 'std::list<user,std::allocator<user>>' does not define this operator or a conversion to a type acceptable to the predefined operator
+C:\Users\Kingpin\Documents\GitHub\Programming-on-Web\erg1\erg1\erg1\erg1.cpp(28,2): error C2143: syntax error: missing ';' before '}'
+  point.cpp
+  user.cpp
+  Generating Code...

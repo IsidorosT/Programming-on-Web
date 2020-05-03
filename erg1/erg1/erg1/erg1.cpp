@@ -3,43 +3,52 @@
 
 #include <iostream>
 #include <list>
-#include "user.h"
-#include "point.h"
+#include "User.h"
+#include "Node.h"
+#include "User.cpp"
 #include <stdlib.h>
+#include <vector>
+#include<string>
 //DxD D:διαστασεις σε km
 int main()
 {
-	int D = 1000;//D is the dimensions of the space app checking. It can be added by admin too.
-	int time_metr = 0;
-	list<user> COVID_VICTIMS;
+	int D = 1000;
+	string date = "3/5/2020";
+	vector<User> COVID_Cases;
+	
+
+
 	//Create patients
-	int plithos_asthenon = 3;//You can manage the number with an input from the admin
-	for (int i = 0; i <= plithos_asthenon; i++) 
+	int cases = 3;
+	for (int i = 0; i <= cases; i++)
 	{
-		user o;
-		COVID_VICTIMS.insert = o;
+		//'Patient' objects are created
+		COVID_Cases.insert = User(true);
+		//Patients Spawn in a random point of map. First Node stored in the 'Trajectory' vector
+		COVID_Cases[i].Trajectory.push_back(Node((int)rand % D + 1, (int)rand % D + 1, date, 0));
+		//Patients start moving. Starting point is the first Node of the 'Trajectory' vector
+		user_Move(COVID_Cases[i], COVID_Cases[i].Trajectory.size - 1, (int)rand % D + 1, (int)rand % D + 1);
 	}
+
+
 	//Create User
-	user user;
-	point p((int)rand % D + 1, (int)rand % D + 1,time_metr);
-	user.User_Trajectory.insert = p;
-	for (int i = 0; i <= plithos_asthenon; i++) {
-		COVID_VICTIMS[i]
-	}
-	//Trajectory progression
-	while(0==0){
-
-	}
-}
-bool POSSIBLE_COVID_19_INFECTION(list<point> User_Trajectory, int day, list<user> COVID19_patients) {
+	User user1(false);
+	//User Spawns in map
+	user1.Trajectory.push_back(Node ((int)rand % D + 1, (int)rand % D + 1, date, 0));
+	//User stars moving
+	user_Move(user1, user1.Trajectory.size - 1, (int)rand % D + 1, (int)rand % D + 1);
 
 }
-int FIND_CROWDED_PLACES(int day, int time, list<point> Square_Region_of_Interest, int Minimum_Stay_Duration) {
+
+bool POSSIBLE_COVID_19_INFECTION(list<Node> User_Trajectory, int day, list<User> COVID19_patients) {
 
 }
-list<point> REPAIR(int day, list<point> User_Trajectory) {
+int FIND_CROWDED_PLACES(int day, int time, list<Node> Square_Region_of_Interest, int Minimum_Stay_Duration) {
 
 }
-list<point> SUMMARIZE_TRAJECTORY(int day, list<int> days_before, list<point> User_Trajectory) {
+list<Node> REPAIR(int day, list<Node> User_Trajectory) {
+
+}
+list<Node> SUMMARIZE_TRAJECTORY(int day, list<int> days_before, list<Node> User_Trajectory) {
 
 }
