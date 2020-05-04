@@ -1,0 +1,9 @@
+﻿  erg1.cpp
+E:\Isidoros\Work\UniPi\Αρχεία\Μαθήματα Κορμού\2ο Εξάμηνο\Δομές Δεδομένων\erg1\erg1\erg1\erg1.cpp(17,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+E:\Isidoros\Work\UniPi\Αρχεία\Μαθήματα Κορμού\2ο Εξάμηνο\Δομές Δεδομένων\erg1\erg1\erg1\erg1.cpp(30,12): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+E:\Isidoros\Work\UniPi\Αρχεία\Μαθήματα Κορμού\2ο Εξάμηνο\Δομές Δεδομένων\erg1\erg1\erg1\erg1.cpp(42,28): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+  Node.cpp
+  user.cpp
+  Generating Code...
+E:\Isidoros\Work\UniPi\Αρχεία\Μαθήματα Κορμού\2ο Εξάμηνο\Δομές Δεδομένων\erg1\erg1\erg1\erg1.cpp(54,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  erg1.vcxproj -> E:\Isidoros\Work\UniPi\Αρχεία\Μαθήματα Κορμού\2ο Εξάμηνο\Δομές Δεδομένων\erg1\erg1\x64\Debug\erg1.exe
