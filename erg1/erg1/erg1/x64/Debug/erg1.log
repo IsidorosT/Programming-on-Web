@@ -1,4 +1,6 @@
 ﻿  erg1.cpp
+<<<<<<< Updated upstream
+<<<<<<< Updated upstream
 C:\Users\Kingpin\Documents\GitHub\Programming-on-Web\erg1\erg1\erg1\erg1.cpp(20,24): error C2659: '=': function as left operand
 C:\Users\Kingpin\Documents\GitHub\Programming-on-Web\erg1\erg1\erg1\erg1.cpp(24,20): warning C4311: 'type cast': pointer truncation from 'int (__cdecl *)(void)' to 'int'
 C:\Users\Kingpin\Documents\GitHub\Programming-on-Web\erg1\erg1\erg1\erg1.cpp(24,20): warning C4302: 'type cast': truncation from 'int (__cdecl *)(void)' to 'int'
@@ -10,3 +12,15 @@ C:\Users\Kingpin\Documents\GitHub\Programming-on-Web\erg1\erg1\erg1\erg1.cpp(28,
   point.cpp
   user.cpp
   Generating Code...
+=======
+=======
+>>>>>>> Stashed changes
+C:\Users\Kingpin\Documents\GitHub\Programming-on-Web\erg1\erg1\erg1\erg1.cpp(18,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\Kingpin\Documents\GitHub\Programming-on-Web\erg1\erg1\erg1\erg1.cpp(31,12): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\Kingpin\Documents\GitHub\Programming-on-Web\erg1\erg1\erg1\erg1.cpp(43,28): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+C:\Users\Kingpin\Documents\GitHub\Programming-on-Web\erg1\erg1\erg1\erg1.cpp(55,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  erg1.vcxproj -> C:\Users\Kingpin\Documents\GitHub\Programming-on-Web\erg1\erg1\x64\Debug\erg1.exe
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
