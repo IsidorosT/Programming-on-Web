@@ -1,0 +1,6 @@
+﻿  erg1.cpp
+C:\Users\Kingpin\Documents\GitHub\Programming-on-Web\erg1\erg1\erg1\erg1.cpp(17,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\Kingpin\Documents\GitHub\Programming-on-Web\erg1\erg1\erg1\erg1.cpp(30,12): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\Kingpin\Documents\GitHub\Programming-on-Web\erg1\erg1\erg1\erg1.cpp(42,28): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+C:\Users\Kingpin\Documents\GitHub\Programming-on-Web\erg1\erg1\erg1\erg1.cpp(54,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  erg1.vcxproj -> C:\Users\Kingpin\Documents\GitHub\Programming-on-Web\erg1\erg1\x64\Debug\erg1.exe
