@@ -6,32 +6,41 @@
 #include "Node.h"
 
 using namespace std;
-class User
-{
-public:
-	vector<Node> Trajectory;
-	bool infected;
-	int speed;
-	int dest_x;
-	int dest_y;
-	int start_x;
-	int start_y;
-	int start_time;
-	int current_x;
-	int current_y;
+class User {
+	public:
+		vector<Node> Trajectory;
+		bool infected;
+		bool GPSSIGNAL = false;
+		bool flag;
 
-	int wait_time = 0;
-	User(bool infection, int user_speed, int dx, int dy, int sx, int sy, int stime) {
-		infected = infection;
-		speed = user_speed;
-		dest_x = dx;
-		dest_y = dy;
-		start_x = sx;
-		start_y = sy;
-		current_x = sx;
-		current_y = sy;
-		start_time = stime;
-	}
+		int speed;
+		int dest_x;
+		int dest_y;
+		int start_x;
+		int start_y;
+		int start_time;
+		int current_x;
+		int current_y;
+		int radius; 
+		int timelost;
+		int wait_time = 0;
+
+		vector<int> days_index = { 0 };
+
+		User(bool infection, int user_speed, int dx, int dy, int sx, int sy, int stime) {
+			infected = infection;
+			speed = user_speed;
+			dest_x = dx;
+			dest_y = dy;
+			start_x = sx;
+			start_y = sy;
+			current_x = sx;
+			current_y = sy;
+			start_time = stime;
+			radius = user_speed;
+			timelost = 0;
+			flag = false;
+		}
 };
 
 
