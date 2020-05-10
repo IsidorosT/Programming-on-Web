@@ -1,25 +1,28 @@
 ﻿  erg1.cpp
-C:\Users\Kingpin\Documents\GitHub\Programming-on-Web\erg1\erg1\erg1\erg1.cpp(24,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-C:\Users\Kingpin\Documents\GitHub\Programming-on-Web\erg1\erg1\erg1\erg1.cpp(100,13): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
-C:\Users\Kingpin\Documents\GitHub\Programming-on-Web\erg1\erg1\erg1\erg1.cpp(112,29): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
-C:\Users\Kingpin\Documents\GitHub\Programming-on-Web\erg1\erg1\erg1\erg1.cpp(148,29): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\Kingpin\Documents\GitHub\Programming-on-Web\erg1\erg1\erg1\erg1.cpp(155,46): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\Kingpin\Documents\GitHub\Programming-on-Web\erg1\erg1\erg1\erg1.cpp(157,14): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
-C:\Users\Kingpin\Documents\GitHub\Programming-on-Web\erg1\erg1\erg1\erg1.cpp(185,12): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
-C:\Users\Kingpin\Documents\GitHub\Programming-on-Web\erg1\erg1\erg1\erg1.cpp(202,50): warning C4267: '-=': conversion from 'size_t' to '_Ty', possible loss of data
+C:\Users\Kingpin\Documents\GitHub\Programming-on-Web\erg1\erg1\erg1\erg1.cpp(23,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\Kingpin\Documents\GitHub\Programming-on-Web\erg1\erg1\erg1\erg1.cpp(85,13): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\Kingpin\Documents\GitHub\Programming-on-Web\erg1\erg1\erg1\erg1.cpp(97,29): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+C:\Users\Kingpin\Documents\GitHub\Programming-on-Web\erg1\erg1\erg1\erg1.cpp(127,14): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\Kingpin\Documents\GitHub\Programming-on-Web\erg1\erg1\erg1\erg1.cpp(155,18): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Kingpin\Documents\GitHub\Programming-on-Web\erg1\erg1\erg1\erg1.cpp(173,12): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\Kingpin\Documents\GitHub\Programming-on-Web\erg1\erg1\erg1\erg1.cpp(189,50): warning C4267: '-=': conversion from 'size_t' to '_Ty', possible loss of data
           with
           [
               _Ty=int
           ]
-C:\Users\Kingpin\Documents\GitHub\Programming-on-Web\erg1\erg1\erg1\erg1.cpp(212,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-C:\Users\Kingpin\Documents\GitHub\Programming-on-Web\erg1\erg1\erg1\erg1.cpp(271,52): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
+C:\Users\Kingpin\Documents\GitHub\Programming-on-Web\erg1\erg1\erg1\erg1.cpp(199,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\Kingpin\Documents\GitHub\Programming-on-Web\erg1\erg1\erg1\erg1.cpp(258,52): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
           with
           [
               _Ty=int
           ]
-C:\Users\Kingpin\Documents\GitHub\Programming-on-Web\erg1\erg1\erg1\erg1.cpp(274,77): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
+C:\Users\Kingpin\Documents\GitHub\Programming-on-Web\erg1\erg1\erg1\erg1.cpp(262,73): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
           with
           [
               _Ty=int
           ]
+C:\Users\Kingpin\Documents\GitHub\Programming-on-Web\erg1\erg1\erg1\erg1.cpp(267,11): warning C4477: 'printf' : format string '%i' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+C:\Users\Kingpin\Documents\GitHub\Programming-on-Web\erg1\erg1\erg1\erg1.cpp(267,11): message : consider using '%zi' in the format string
+C:\Users\Kingpin\Documents\GitHub\Programming-on-Web\erg1\erg1\erg1\erg1.cpp(268,77): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Kingpin\Documents\GitHub\Programming-on-Web\erg1\erg1\erg1\erg1.cpp(280,75): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
   erg1.vcxproj -> C:\Users\Kingpin\Documents\GitHub\Programming-on-Web\erg1\erg1\x64\Debug\erg1.exe
