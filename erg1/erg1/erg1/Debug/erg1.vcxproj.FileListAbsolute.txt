@@ -1,0 +1,3 @@
+C:\Users\Kingpin\Documents\GitHub\Programming-on-Web\erg1\erg1\Debug\erg1.pdb
+C:\Users\Kingpin\Documents\GitHub\Programming-on-Web\erg1\erg1\erg1\Debug\erg1.exe
+C:\Users\Kingpin\Documents\GitHub\Programming-on-Web\erg1\erg1\erg1\Debug\erg1.pdb

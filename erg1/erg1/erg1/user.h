@@ -6,7 +6,7 @@
 #include "Node.h"
 
 using namespace std;
-class user
+class User
 {
 public:
 	vector<Node> Trajectory;
@@ -26,7 +26,7 @@ public:
 	vector<int> days_index;
 
 	int wait_time = 0;
-	user(bool infection, int user_speed, int dx, int dy, int sx, int sy, int stime) {
+	User(bool infection, int user_speed, int dx, int dy, int sx, int sy, int stime) {
 		infected = infection;
 		speed = user_speed;
 		dest_x = dx;
