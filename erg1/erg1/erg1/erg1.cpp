@@ -42,7 +42,7 @@ bool POSSIBLE_COVID_19_INFECTION(User& user, int day, vector<User> COVID19_patie
 				}
 			}
 		}
-	}
+	}	
 	return false;	//If after checking every Node of the user's Trajectory for that day, the function has not returned true, then return false
 }
 ///////////////////////////////////////
@@ -51,13 +51,11 @@ bool POSSIBLE_COVID_19_INFECTION(User& user, int day, vector<User> COVID19_patie
 int FIND_CROWDED_PLACES(User& user, vector<int> time, vector<Node> Square_Region_of_Interest, int Minimum_Stay_Duration) {
 	vector<User> in = COVID_CASES;	//The full list of users and COVID VICTIMS
 	vector<int> ol;					//A list of representing the amount of stay in the tracking area on each of people that this app has
-	Minimum_Stay_Duration = Minimum_Stay_Duration * 60;
 	for (int i = 0; i <= COVID_CASES.size(); i++)
 		ol.push_back(0);
 	in.push_back(user);
 	int temp = 0;
 	for (int j = 0; j <= in.size() - 1; j++) {
-		
 		for (int i = in[j].days_index[in[j].days_index.size() - 2]; i < in[j].days_index[in[j].days_index.size() - 1]; i++) {
 			if (in[j].Trajectory[i].time >= time[0] / 30 && in[j].Trajectory[i].time <= time[1] / 30) {
 				if (in[j].Trajectory[i].x >= Square_Region_of_Interest[0].x && in[j].Trajectory[i].x <= Square_Region_of_Interest[1].x && in[j].Trajectory[i].y <= Square_Region_of_Interest[0].y && in[j].Trajectory[i].y >= Square_Region_of_Interest[1].y)//if this user is in place of tracking then add 30sec on his time of stay
@@ -69,7 +67,8 @@ int FIND_CROWDED_PLACES(User& user, vector<int> time, vector<Node> Square_Region
 	}
 	for (int j = 0; j <= in.size() - 1; j++) {//With this loop erase from list everyone that didnt stay from the minimum duration in the tracking zone
 		if (ol[j] < Minimum_Stay_Duration) {
-			in.erase(in.begin() + j);	ol.erase(ol.begin() + j);
+			in.erase(in.begin() + j);
+			ol.erase(ol.begin() + j);
 			j--;
 		}
 		if (in.size() == 0)
@@ -157,7 +156,7 @@ vector<Node> SUMMARIZE_TRAJECTORY(int day, int days_before, User& user, int R) {
 		else
 			noi = i;											//Else make the current Node Node of Interest
 	}
-
+	 
 	for (int i = 0; i < Nodes_for_Deletion.size(); i++) {						//For every Node stored inside the vector 'Nodes_for_Deletion
 		for (int j = user.days_index[(__int64)day - days_before - 1]; j < user.days_index[(__int64)day - days_before]; j++) {		//For every Node of the day given
 			if (user.Trajectory[j].x == Nodes_for_Deletion[i].x && user.Trajectory[j].y == Nodes_for_Deletion[i].y && user.Trajectory[j].time == Nodes_for_Deletion[i].time) { //If Nodes match
@@ -224,8 +223,7 @@ User Move(User& user) {
 						temp1 = user.current_y + user.radius + 1;
 					else
 						temp1 = D + 1;
-					if (user.current_y - user.radius > 0)
-					{
+					if (user.current_y - user.radius > 0) {
 						temp2 = user.current_y - user.radius;
 						user.start_y = rand() % ((temp1 - temp2) + 1) + temp2;
 					}
@@ -267,7 +265,7 @@ User Move(User& user) {
 			}
 			else {											//Else if the distance can be covered within 30 sec, move to the destination
 				user.current_x = user.dest_x;	user.current_y = user.dest_y;
-				user.wait_time = 30 * (rand() % 6 + 1);
+				user.wait_time = 30 * (rand() % 10 + 1);
 			}
 		}
 		else {
@@ -321,7 +319,7 @@ int main() {
 	///		TRAJECTORY		///	
 	///////////////////////////
 	//Progression
-	while (true) {//The following loop prints the Trajectory of the first patient of the list after every movement. Remove the comments below to print movements of every patient
+	while (true) {
 		for (int i = 0; i < COVID_CASES.size(); i++) {
 			Move(COVID_CASES[i]);
 			if (COVID_CASES[i].GPSSIGNAL)
@@ -342,7 +340,6 @@ int main() {
 				COVID_CASES[i].Trajectory = REPAIR(COVID_CASES[i],COVID_CASES[i].Trajectory);
 			}
 			printf("Repair of Day %i Trajectories completed!\n\n", user.days_index.size() - 1);
-
 			
 			//		POSSIBLE COVID-19 INFECTION		//
 			if (POSSIBLE_COVID_19_INFECTION(user, user.days_index.size() - 1, COVID_CASES) == true)
@@ -352,7 +349,7 @@ int main() {
 			
 			//		SUMMARIZE		//
 			cout << "SUMMARIZE TRAJECTORIES\n";
-			cout << "Enter distance 'R':" << endl;	int R;	cin >> R;
+			cout << "Enter maximum distance 'R':" << endl;	int R;	cin >> R;
 			for (int i = 0; i < COVID_CASES.size(); i++)
 				SUMMARIZE_TRAJECTORY(COVID_CASES[i].days_index.size(), 1, COVID_CASES[i], R);
 			SUMMARIZE_TRAJECTORY(user.days_index.size(), 1, user, R);
@@ -366,11 +363,12 @@ int main() {
 				vector<Node> coordinates;
 				int min; int k;	int l;
 				if (x == "Y") {
-					cout << "Give the starting time of tracking(00:00)-(23:59)\n";				cin >> k;
+					cout << "Give the starting time of tracking(00:00)-(23:59) (For example 12:15 should be typed as 1215)\n";	cin >> k;
 					time.push_back((k/100)*3600+(k%100)*60);
 					cout << "Give the ending time of tracking(00:00)-(23:59)\n";				cin >> k;
 					time.push_back((k / 100) * 3600 + (k % 100) * 60);
-					printf("Give the Up-Left spot of tracking place(0,0)-(%i,%i)\n",D, D);		cin >> k;	cin >> l;
+					printf("Give the Up-Left spot of tracking place(0,0)-(%i,%i). (First the coordinate x, press Enter, then the coordinate y and Enter)\n",D, D);
+					cin >> k;	cin >> l;
 					Node s(k,l,0);
 					coordinates.push_back(s);
 					printf("Give the Down-Right spot of tracking place(0,0)-(%i,%i)\n", D, D);	cin >> k;	cin >> l;

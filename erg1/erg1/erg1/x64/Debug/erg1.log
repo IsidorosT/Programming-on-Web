@@ -1,13 +1,6 @@
 ﻿  erg1.cpp
 C:\Users\Kingpin\Documents\GitHub\Programming-on-Web\erg1\erg1\erg1\erg1.cpp(33,14): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
-C:\Users\Kingpin\Documents\GitHub\Programming-on-Web\erg1\erg1\erg1\erg1.cpp(51,25): error C2065: 'user': undeclared identifier
-C:\Users\Kingpin\Documents\GitHub\Programming-on-Web\erg1\erg1\erg1\erg1.cpp(51,31): error C2275: 'User': illegal use of this type as an expression
-C:\Users\Kingpin\Documents\GitHub\Programming-on-Web\erg1\erg1\erg1\user.h(9): message : see declaration of 'User'
-C:\Users\Kingpin\Documents\GitHub\Programming-on-Web\erg1\erg1\erg1\erg1.cpp(51,37): error C2275: 'std::vector<int,std::allocator<int>>': illegal use of this type as an expression
-C:\Users\Kingpin\Documents\GitHub\Programming-on-Web\erg1\erg1\erg1\user.h(26): message : see declaration of 'std::vector<int,std::allocator<int>>'
-C:\Users\Kingpin\Documents\GitHub\Programming-on-Web\erg1\erg1\erg1\erg1.cpp(51,49): error C2146: syntax error: missing ')' before identifier 'time'
-C:\Users\Kingpin\Documents\GitHub\Programming-on-Web\erg1\erg1\erg1\erg1.cpp(51,122): error C2143: syntax error: missing ';' before '{'
-C:\Users\Kingpin\Documents\GitHub\Programming-on-Web\erg1\erg1\erg1\erg1.cpp(51,122): error C2447: '{': missing function header (old-style formal list?)
+C:\Users\Kingpin\Documents\GitHub\Programming-on-Web\erg1\erg1\erg1\erg1.cpp(78,18): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
 C:\Users\Kingpin\Documents\GitHub\Programming-on-Web\erg1\erg1\erg1\erg1.cpp(102,16): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
 C:\Users\Kingpin\Documents\GitHub\Programming-on-Web\erg1\erg1\erg1\erg1.cpp(114,32): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
 C:\Users\Kingpin\Documents\GitHub\Programming-on-Web\erg1\erg1\erg1\erg1.cpp(143,61): warning C4267: '=': conversion from 'size_t' to '_Ty', possible loss of data
@@ -15,51 +8,33 @@ C:\Users\Kingpin\Documents\GitHub\Programming-on-Web\erg1\erg1\erg1\erg1.cpp(143
           [
               _Ty=int
           ]
-C:\Users\Kingpin\Documents\GitHub\Programming-on-Web\erg1\erg1\erg1\erg1.cpp(153,28): error C2275: 'User': illegal use of this type as an expression
-C:\Users\Kingpin\Documents\GitHub\Programming-on-Web\erg1\erg1\erg1\user.h(9): message : see declaration of 'User'
+C:\Users\Kingpin\Documents\GitHub\Programming-on-Web\erg1\erg1\erg1\erg1.cpp(100,17): warning C4101: 'y': unreferenced local variable
+C:\Users\Kingpin\Documents\GitHub\Programming-on-Web\erg1\erg1\erg1\erg1.cpp(100,10): warning C4101: 'x': unreferenced local variable
 C:\Users\Kingpin\Documents\GitHub\Programming-on-Web\erg1\erg1\erg1\erg1.cpp(154,12): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
-C:\Users\Kingpin\Documents\GitHub\Programming-on-Web\erg1\erg1\erg1\erg1.cpp(156,33): error C2275: 'User': illegal use of this type as an expression
-C:\Users\Kingpin\Documents\GitHub\Programming-on-Web\erg1\erg1\erg1\user.h(9): message : see declaration of 'User'
-C:\Users\Kingpin\Documents\GitHub\Programming-on-Web\erg1\erg1\erg1\erg1.cpp(162,16): error C2275: 'User': illegal use of this type as an expression
-C:\Users\Kingpin\Documents\GitHub\Programming-on-Web\erg1\erg1\erg1\user.h(9): message : see declaration of 'User'
-C:\Users\Kingpin\Documents\GitHub\Programming-on-Web\erg1\erg1\erg1\erg1.cpp(162,69): error C2275: 'User': illegal use of this type as an expression
-C:\Users\Kingpin\Documents\GitHub\Programming-on-Web\erg1\erg1\erg1\user.h(9): message : see declaration of 'User'
-C:\Users\Kingpin\Documents\GitHub\Programming-on-Web\erg1\erg1\erg1\erg1.cpp(163,7): error C2059: syntax error: '.'
-C:\Users\Kingpin\Documents\GitHub\Programming-on-Web\erg1\erg1\erg1\erg1.cpp(163,165): error C2143: syntax error: missing ';' before '{'
-C:\Users\Kingpin\Documents\GitHub\Programming-on-Web\erg1\erg1\erg1\erg1.cpp(164,9): error C2059: syntax error: '.'
-C:\Users\Kingpin\Documents\GitHub\Programming-on-Web\erg1\erg1\erg1\erg1.cpp(169,38): error C2275: 'User': illegal use of this type as an expression
-C:\Users\Kingpin\Documents\GitHub\Programming-on-Web\erg1\erg1\erg1\user.h(9): message : see declaration of 'User'
 C:\Users\Kingpin\Documents\GitHub\Programming-on-Web\erg1\erg1\erg1\erg1.cpp(170,50): warning C4267: '-=': conversion from 'size_t' to '_Ty', possible loss of data
           with
           [
               _Ty=int
           ]
-C:\Users\Kingpin\Documents\GitHub\Programming-on-Web\erg1\erg1\erg1\erg1.cpp(172,9): error C2275: 'User': illegal use of this type as an expression
-C:\Users\Kingpin\Documents\GitHub\Programming-on-Web\erg1\erg1\erg1\user.h(9): message : see declaration of 'User'
-C:\Users\Kingpin\Documents\GitHub\Programming-on-Web\erg1\erg1\erg1\erg1.cpp(178,10): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-C:\Users\Kingpin\Documents\GitHub\Programming-on-Web\erg1\erg1\erg1\erg1.cpp(178,6): error C2146: syntax error: missing ';' before identifier 'Move'
-C:\Users\Kingpin\Documents\GitHub\Programming-on-Web\erg1\erg1\erg1\erg1.cpp(178,23): error C2143: syntax error: missing ';' before '{'
-C:\Users\Kingpin\Documents\GitHub\Programming-on-Web\erg1\erg1\erg1\erg1.cpp(178,23): error C2447: '{': missing function header (old-style formal list?)
-C:\Users\Kingpin\Documents\GitHub\Programming-on-Web\erg1\erg1\erg1\erg1.cpp(282,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-C:\Users\Kingpin\Documents\GitHub\Programming-on-Web\erg1\erg1\erg1\erg1.cpp(326,4): error C3861: 'Move': identifier not found
-C:\Users\Kingpin\Documents\GitHub\Programming-on-Web\erg1\erg1\erg1\erg1.cpp(331,3): error C3861: 'Move': identifier not found
-C:\Users\Kingpin\Documents\GitHub\Programming-on-Web\erg1\erg1\erg1\erg1.cpp(335,11): warning C4477: 'printf' : format string '%i' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
-C:\Users\Kingpin\Documents\GitHub\Programming-on-Web\erg1\erg1\erg1\erg1.cpp(335,11): message : consider using '%zi' in the format string
-C:\Users\Kingpin\Documents\GitHub\Programming-on-Web\erg1\erg1\erg1\erg1.cpp(336,52): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
+C:\Users\Kingpin\Documents\GitHub\Programming-on-Web\erg1\erg1\erg1\erg1.cpp(180,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\Kingpin\Documents\GitHub\Programming-on-Web\erg1\erg1\erg1\erg1.cpp(252,13): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\Kingpin\Documents\GitHub\Programming-on-Web\erg1\erg1\erg1\erg1.cpp(264,29): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+C:\Users\Kingpin\Documents\GitHub\Programming-on-Web\erg1\erg1\erg1\erg1.cpp(281,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\Kingpin\Documents\GitHub\Programming-on-Web\erg1\erg1\erg1\erg1.cpp(334,11): warning C4477: 'printf' : format string '%i' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+C:\Users\Kingpin\Documents\GitHub\Programming-on-Web\erg1\erg1\erg1\erg1.cpp(334,11): message : consider using '%zi' in the format string
+C:\Users\Kingpin\Documents\GitHub\Programming-on-Web\erg1\erg1\erg1\erg1.cpp(335,52): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
           with
           [
               _Ty=int
           ]
-C:\Users\Kingpin\Documents\GitHub\Programming-on-Web\erg1\erg1\erg1\erg1.cpp(341,73): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
+C:\Users\Kingpin\Documents\GitHub\Programming-on-Web\erg1\erg1\erg1\erg1.cpp(340,73): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
           with
           [
               _Ty=int
           ]
-C:\Users\Kingpin\Documents\GitHub\Programming-on-Web\erg1\erg1\erg1\erg1.cpp(344,11): warning C4477: 'printf' : format string '%i' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
-C:\Users\Kingpin\Documents\GitHub\Programming-on-Web\erg1\erg1\erg1\erg1.cpp(344,11): message : consider using '%zi' in the format string
-C:\Users\Kingpin\Documents\GitHub\Programming-on-Web\erg1\erg1\erg1\erg1.cpp(348,7): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\Kingpin\Documents\GitHub\Programming-on-Web\erg1\erg1\erg1\erg1.cpp(357,80): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\Kingpin\Documents\GitHub\Programming-on-Web\erg1\erg1\erg1\erg1.cpp(358,59): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\Kingpin\Documents\GitHub\Programming-on-Web\erg1\erg1\erg1\erg1.cpp(380,10): error C3861: 'FIND_CROWDED_PLACES': identifier not found
-  user.cpp
-  Generating Code...
+C:\Users\Kingpin\Documents\GitHub\Programming-on-Web\erg1\erg1\erg1\erg1.cpp(343,11): warning C4477: 'printf' : format string '%i' requires an argument of type 'int', but variadic argument 1 has type 'unsigned __int64'
+C:\Users\Kingpin\Documents\GitHub\Programming-on-Web\erg1\erg1\erg1\erg1.cpp(343,11): message : consider using '%zi' in the format string
+C:\Users\Kingpin\Documents\GitHub\Programming-on-Web\erg1\erg1\erg1\erg1.cpp(346,7): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Kingpin\Documents\GitHub\Programming-on-Web\erg1\erg1\erg1\erg1.cpp(355,80): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Kingpin\Documents\GitHub\Programming-on-Web\erg1\erg1\erg1\erg1.cpp(356,59): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  erg1.vcxproj -> C:\Users\Kingpin\Documents\GitHub\Programming-on-Web\erg1\erg1\x64\Debug\erg1.exe
